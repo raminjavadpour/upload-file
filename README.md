@@ -1,5 +1,5 @@
 This code uses the file_get_contents function to download the file from the URL and file_put_contents to save the file to your server. Note that you need to have write permission to the destination directory on your server.
-
+#
 <?php
 // URL of the file to download
 $file_url = 'http://example.com/file.jpg';
@@ -17,3 +17,4 @@ if(file_put_contents($destination_path, $file_contents)) {
     echo 'Error uploading file';
 }
 ?>
+#
